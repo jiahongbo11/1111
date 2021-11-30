@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进制转换"
+        android:layout_gravity="center"
+        android:textSize="45sp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp">
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="十进制:              "
+            android:textSize="25sp"
+            android:id="@+id/title10"
+            android:layout_marginLeft="15dp"
+            />
+
+        <EditText
+            android:id="@+id/Edit10"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:inputType="number"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp">
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="二进制:           0d"
+            android:textSize="25sp"
+            android:id="@+id/title2"
+            android:layout_marginLeft="15dp"
+            />
+
+        <EditText
+            android:id="@+id/Edit2"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:inputType="number"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp">
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="八进制:            0"
+            android:textSize="25sp"
+            android:id="@+id/title8"
+            android:layout_marginLeft="15dp"
+            />
+
+        <EditText
+            android:id="@+id/Edit8"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:inputType="number"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp">
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="十六进制:       0x"
+            android:textSize="25sp"
+            android:id="@+id/title16"
+            android:layout_marginLeft="15dp"
+            />
+
+        <EditText
+            android:id="@+id/Edit16"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="转换"
+            android:id="@+id/trans"
+            android:textSize="25sp"
+            android:layout_marginLeft="50sp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="清空"
+            android:id="@+id/clean"
+            android:textSize="25sp"
+            android:layout_marginLeft="100sp"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:text="返回到计算器"
+        android:textSize="20sp" />
+
+</LinearLayout>

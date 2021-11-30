@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <string name="tip">请输入数据</string>
+</resources>
